@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Header Section Starts*/
+.showcase {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url('/assets/images/background.jpg');
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+}
+
+.showcase::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+}
+
+/*Navbar*/
+.showcase-top {
+    position: relative;
+    z-index: 2;
+    padding: 26px 0px 0px 55px;
+}
+
+.showcase-top #logo {
+    height: 35px;
+}
+
+.showcase-top .submit {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 5px 16px;
+    border-radius: 3px;
+    float: right;
+    position: relative;
+    right: 55px;
+}
+
+.showcase-top select {
+    background-color: transparent;
+    color: white;
+    border-radius: 3px;
+    padding: 5px 10px;
+    float: right;
+    position: relative;
+    right: 85px;
+}
+
+.showcase-top select option {
+    color: black;
+}
+
+/*Get Started*/
+.showcase .get-started-container {
+    z-index: 2;
+    position: relative;
+    text-align: center;
+    top: 180px;
+    width: 100%;
+}
+
+.showcase .get-started-container h1,
+p {
+    color: white;
+}
+
+.showcase .get-started-container h1 {
+    font-size: 3.9rem;
+}
+
+.showcase .get-started-container .para-1 {
+    font-size: 1.7rem;
+}
+
+.showcase .get-started-container .para-2 {
+    font-size: 1.2rem;
+}
+
+.showcase .get-started-container input {
+    width: 35%;
+    padding: 22px;
+    border: none;
+    margin-top: 0.5%;
+    outline: none;
+}
+
+.showcase .get-started-container button {
+    padding: 22px;
+    border: none;
+    background-color: #e50914;
+    color: white;
+    margin-left: -0.3%;
+    font-weight: bold;
+}
+
+
+/*Main sections starts*/
+/*Enjoy on your TV*/
+.main-section .section-container{
+    border-top: 8px solid #222;
+    background-color: black;
+    display: flex;
+    padding: 0px 80px;
+    padding-bottom: 90px;
+}
+
+.main-section .section-container .left-column{
+    padding-top: 13%;
+    padding-right: 2%;
+}
+
+.main-section .section-container .left-column h1{
+    color: white;
+}
+
+.main-section .section-container .left-column h3{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin-top: 5%;
+}
+
+.main-section .section-container .right-column{
+    overflow: hidden;
+    position: relative;
+    width: 80%;
+    height: 500px;
+}
+
+.main-section .section-container .right-column img{
+    position: absolute;
+    width: 100%;
+}
+
+.main-section .section-container .right-column .video-1{
+    margin-left: 13%;
+    margin-top: 16%;
+    width: 73%;
+}
+
+/*Download you show to watch offline*/
+
+
+
